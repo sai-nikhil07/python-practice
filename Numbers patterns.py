@@ -1,3 +1,28 @@
+#Number X Pattern
+n=5
+for i in range(1,n+1):
+    for j in range(1,n*2):
+        if i==j or j==2*n-i:
+            print(i,end=" ")
+        else:print(" ",end=" ")
+    print()
+for i in range(1,n+1):
+    for j in range(1,n*2):
+        if  j==n-i or j==n+i:
+            print(n-i,end=" ")
+        else:print(" ",end=" ")
+    print()
+
+#o/p
+1               1 
+  2           2   
+    3       3     
+      4   4       
+        5         
+      4   4       
+    3       3     
+  2           2   
+1               1 
 
 # Concentric Square Numbers
 n = 5
